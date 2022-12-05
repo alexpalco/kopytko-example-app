@@ -4,12 +4,14 @@
   "description": "Kopytko Roku Ecosystem example app",
   "scripts": {
     "build": "node node_modules/@dazn/kopytko-packager/scripts/build.js",
-    "start": "node node_modules/@dazn/kopytko-packager/scripts/start.js"
+    "start": "node node_modules/@dazn/kopytko-packager/scripts/start.js",
+    "test": "node node_modules/@dazn/kopytko-unit-testing-framework/scripts/test.js"
   },
   "author": "Paweł Hertman <pawel@hertman.eu>",
   "license": "ISC",
   "devDependencies": {
     "@dazn/kopytko-packager": "^1.0.3",
+    "@dazn/kopytko-unit-testing-framework": "^2.1.0",
     "glob-promise": "^4.2.2"
   },
   "dependencies": {
